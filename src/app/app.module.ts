@@ -31,6 +31,7 @@ import {MessagesService} from "./services/messages.service";
 import { CreateLessonComponent } from './create-lesson/create-lesson.component';
 import {CourseDetailResolver} from "./course-detail/course-detail.resolver";
 import { LoadingComponent } from './loading/loading.component';
+import { BrowserEventExperiments2Component } from './browser-event-experiments2/browser-event-experiments2.component';
 
 
 @NgModule({
@@ -53,7 +54,8 @@ import { LoadingComponent } from './loading/loading.component';
         SafeUrlPipe,
         MessagesComponent,
         CreateLessonComponent,
-        LoadingComponent
+        LoadingComponent,
+        BrowserEventExperiments2Component
     ],
     imports: [
         BrowserModule,
